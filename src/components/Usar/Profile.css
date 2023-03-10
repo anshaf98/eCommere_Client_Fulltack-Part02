@@ -1,0 +1,38 @@
+.dashboard-wrapper {
+    border: 1px solid #dedede;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.dashboard-wrapper h2 {
+    font-size: 18px;
+}
+
+.dashboard-wrapper h4 {
+    font-size: 16px;
+}
+
+.dashboard-wrapper .user-img {
+    width: 120px;
+    border-radius: 100px;
+}
+
+.dashboard-user-profile .user-img {
+    width: 180px;
+}
+
+.dashboard-user-profile .user-profile-list {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.dashboard-user-profile .user-profile-list li {
+    margin-bottom: 8px;
+}
+
+.dashboard-user-profile .user-profile-list span {
+    font-weight: bold;
+    margin-right: 5px;
+    width: 100px;
+    display: inline-block;
+}

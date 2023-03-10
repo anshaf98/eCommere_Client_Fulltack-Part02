@@ -1,0 +1,40 @@
+.shop {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.sidebar__categories {
+    margin-bottom: 50px;
+}
+
+.sidebar__categories .section-title {
+    margin-bottom: 35px;
+}
+
+.sidebar__categories .section-title h4 {
+    font-size: 18px;
+}
+
+.sidebar__color {
+    margin-bottom: 40px;
+}
+
+.sidebar__color .section-title {
+    margin-bottom: 35px;
+}
+
+.sidebar__color .section-title h4 {
+    font-size: 18px;
+}
+
+.sidebar__price {
+    margin-bottom: 50px;
+}
+
+.sidebar__price .section-title h4 {
+    font-size: 18px;
+}
+
+.sidebar__rating .section-title h4 {
+    font-size: 18px;
+}

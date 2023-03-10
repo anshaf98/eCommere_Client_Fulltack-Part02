@@ -1,0 +1,235 @@
+.product {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.product__item {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 20px 5px;
+}
+
+.product__item:hover .product__hover li {
+    opacity: 1;
+    top: 0;
+}
+
+.product__item.sale .product__item__pic .label {
+    background: #000;
+}
+
+.product__item.sale .product__item__text .product__price {
+    color: #000;
+}
+
+.product__item__pic {
+    height: 360px;
+    /* width: 100%; */
+    position: relative;
+    overflow: hidden;
+}
+
+.product__item__pic .label {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    display: inline-block;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.product__item__pic .label2 {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    display: inline-block;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.product__item__pic .label2.new2 {
+    font-size: 15px;
+    background: #ca1515;
+}
+
+.product__item__pic .label.new {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+}
+
+.product__item__pic .label.sale {
+    background: #ca1515;
+}
+
+.product__hover {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 30px;
+    text-align: center;
+}
+
+.product__hover li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 100px;
+    opacity: 0;
+}
+
+.product__hover li:nth-child(1) {
+    -webkit-transition: all 0.4s ease 0.1s;
+    -o-transition: all 0.4s ease 0.1s;
+    transition: all 0.4s ease 0.1s;
+}
+
+.product__hover li:nth-child(2) {
+    -webkit-transition: all 0.4s ease 0.15s;
+    -o-transition: all 0.4s ease 0.15s;
+    transition: all 0.4s ease 0.15s;
+}
+
+.product__hover li:nth-child(3) {
+    -webkit-transition: all 0.4s ease 0.2s;
+    -o-transition: all 0.4s ease 0.2s;
+    transition: all 0.4s ease 0.2s;
+}
+
+
+.product__hover li:hover p {
+    background: #000;
+}
+
+.product__hover li:hover p span {
+    color: #ffffff;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.product__hover li p {
+    font-size: 10px;
+    color: #111111;
+    display: block;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    background: #ffffff;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s;
+}
+
+.product__hover li p span {
+    position: relative;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+    display: inline-block;
+}
+
+.product__item__text {
+    text-align: center;
+}
+
+.product__item__text h6 p {
+    font-size: 14px;
+    color: #111111;
+}
+
+.product__item__text .rating {
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.product__item__text .rating span.review-card {
+    font-size: 10px;
+    color: #b1b0b0;
+}
+
+.product__item__text .product__price {
+    color: #111111;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product__item__text .product__price.discount {
+    font-size: 12px;
+    color: #ca1515;
+    text-decoration: line-through;
+    margin-left: 4px;
+}
+
+
+/* TREND */
+.trend {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.trend__content .section-title h4 {
+    font-size: 20px;
+}
+
+.trend__content .section-title h4:after {
+    bottom: -6px;
+}
+
+.trend__item {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.trend__item__pic {
+    float: left;
+    margin-right: 25px;
+}
+
+.trend__item__pic img {
+    width: 100px;
+}
+
+.trend__item__text {
+    overflow: hidden;
+}
+
+.trend__item__text h6 {
+    font-size: 14px;
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.trend__item__text .rating {
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
+.trend__item__text .product__price {
+    color: #111111;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trend__item__text .product__price.discount {
+    font-size: 14px;
+    color: red;
+    text-decoration: line-through;
+    margin-left: 4px;
+}

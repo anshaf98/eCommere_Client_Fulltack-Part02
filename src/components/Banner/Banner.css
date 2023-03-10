@@ -1,0 +1,32 @@
+.banner {
+    height: 500px;
+}
+
+.banner__text span {
+    background: #fff;
+    padding: 10px;
+    font-size: 18px;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.banner__text h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-shadow: #111 1px 0 20px
+}
+
+/* font-family: 'Cinzel Decorative', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Itim', cursive; */
+
+
+.banner__slider {
+    text-align: center;
+    padding: 150px 0 0;
+}
